@@ -1,17 +1,20 @@
 const product = [
   {
+    id: 1,
     name: "Toast",
     price: 1.5,
     image:
       "https://images.getrecipekit.com/20210919052613-breakfast-toast-topper-1030x687.jpg?width=650&quality=90&",
   },
   {
+    id: 2,
     name: "baquette",
     price: 3,
     image:
       "https://thumbs.dreamstime.com/b/hand-holding-french-baquette-bread-fresh-white-background-53713643.jpg",
   },
   {
+    id: 3,
     name: "Hamburger Bun",
     price: 1,
     image:
