@@ -21,21 +21,21 @@ const product = [
       "https://www.rockrecipes.com/wp-content/uploads/2021/06/The-Best-Hamburger-Buns-Recipe-close-up-photo-of-one-bun-split-in-half-horisontally.jpg",
   },
 ];
-const productList = product.map((prod) => {
-  return (
-    <div>
-      <img
-        src={prod.image}
-        alt="Bakery product"
-        style={{
-          width: "300px",
-          minHeight: "200px",
-        }}
-      ></img>
-      <h1>{prod.name}</h1>
-      <h2>{prod.price} KD</h2>
-    </div>
-  );
-});
+// const productList = product.map((prod) => {
+//   return (
+//     <div>
+//       <img
+//         src={prod.image}
+//         alt="Bakery product"
+//         style={{
+//           width: "300px",
+//           minHeight: "200px",
+//         }}
+//       ></img>
+//       <h1>{prod.name}</h1>
+//       <h2>{prod.price} KD</h2>
+//     </div>
+//   );
+// });
 
-export default productList;
+export default product;
